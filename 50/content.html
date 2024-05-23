@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpringBoot 热点新闻监控分析系统</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="">
+ <h2>
+  SpringBoot 热点新闻监控分析系统
+ </h2>
+ <h3>
+  一、项目介绍
+ </h3>
+ <p>
+  
+  <a href="193">
+   193
+  </a>
+ </p>
+ <p>
+  热点新闻监控分析系统基于 SpringBoot+Mybatis 开发，项目每次启动的时候，爬虫会去爬取网易新闻首页的热点内容，进行解析存库，然后通过标签分析内容种类。
+ </p>
+ <p>
+  主要功能如下：
+ </p>
+ <ul>
+  <li>
+   新闻爬取
+  </li>
+  <li>
+   新闻管理
+  </li>
+  <li>
+   新闻查看
+  </li>
+  <li>
+   新闻分类统计
+  </li>
+  <li>
+   新闻爬取趋势统计
+  </li>
+ </ul>
+ <h3>
+  二、技术框架
+ </h3>
+ <ul>
+  <li>
+   后端：SpringBoot，Mybatis
+  </li>
+  <li>
+   前端：layui，jquery
+  </li>
+ </ul>
+ <h3>
+  三、安装教程
+ </h3>
+ <ol>
+  <li>
+   用 idea 打开项目
+  </li>
+  <li>
+   在 idea 中配置 jdk 环境
+  </li>
+  <li>
+   配置 maven 环境并下载依赖
+  </li>
+  <li>
+   新建数据库，导入数据库文件
+  </li>
+  <li>
+   在 application.yml 文件中将数据库账号密码改成自己本地的
+  </li>
+  <li>
+   系统的静态资源存储在 F 盘，如果你的电脑没有 F 盘，则需要改成其他盘，具体位置在 file.properties 和 FileConfig.java 两个文件，将文件里面的 F:/upload 改成你本地的即可。
+  </li>
+  <li>
+   启动运行，访问
+   <a href="http://localhost:8080" rel="external nofollow noopener" target="_blank">
+    http://localhost:8080
+   </a>
+   , 账号密码 system/123456
+  </li>
+ </ol>
+ <p>
+  
+  <a href="">
+   
+  </a>
+ </p>
+ <h3>
+  四、项目截图
+ </h3>
+ <p>
+  <img alt="image-20230804152452170" src="http://image.javatip.cn/bysj/20230804152452.png"/>
+ </p>
+ <p>
+  <img alt="image-20230804152407241" src="http://image.javatip.cn/bysj/20230804152407.png"/>
+ </p>
+ <p>
+  <img alt="image-20230804152419676" src="http://image.javatip.cn/bysj/20230804152419.png"/>
+ </p>
+ <p>
+  <img alt="image-20230804152430967" src="http://image.javatip.cn/bysj/20230804152431.png"/>
+ </p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpringBoot 停车场管理系统（含论文）</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="">
+ <h2>
+  SpringBoot 停车场管理系统（含论文）
+ </h2>
+ <h3>
+  一、项目介绍
+ </h3>
+ <p>
+  
+  <a href="197">
+   197
+  </a>
+ </p>
+ <p>
+  停车场管理系统基于 SpringBoot+Mybatis 开发，车辆驶入时系统使用 ocr 技术进行车牌识别，开始计费，车辆理财时根据停车时长计算停车费，汽车入场后自动分配空余车位，并将改车位改为占用状态。系统分为管理员和普通用户两种角色。
+ </p>
+ <p>
+  管理员主要功能：
+ </p>
+ <ul>
+  <li>
+   用户管理
+  </li>
+  <li>
+   公告管理
+  </li>
+  <li>
+   停车场管理
+  </li>
+  <li>
+   车位管理
+  </li>
+  <li>
+   计费规则
+  </li>
+  <li>
+   停车管理
+  </li>
+  <li>
+   车牌识别
+  </li>
+  <li>
+   车辆报修处理
+  </li>
+  <li>
+   停车记录
+  </li>
+  <li>
+   停车费支付
+  </li>
+ </ul>
+ <p>
+  普通用户功能：
+ </p>
+ <ul>
+  <li>
+   公告查看
+  </li>
+  <li>
+   停车场查看
+  </li>
+  <li>
+   车位查看
+  </li>
+  <li>
+   停车记录查看
+  </li>
+  <li>
+   车辆报修
+  </li>
+ </ul>
+ <h3>
+  二、技术框架
+ </h3>
+ <ul>
+  <li>
+   后端：SpringBoot，Mybatis
+  </li>
+  <li>
+   前端：layui，jquery
+  </li>
+ </ul>
+ <h3>
+  三、安装教程
+ </h3>
+ <ol>
+  <li>
+   用 idea 打开项目
+  </li>
+  <li>
+   在 idea 中配置 jdk 环境
+  </li>
+  <li>
+   配置 maven 环境并下载依赖
+  </li>
+  <li>
+   新建数据库，导入数据库文件
+  </li>
+  <li>
+   在 application.yml 文件中将数据库账号密码改成自己本地的
+  </li>
+  <li>
+   系统的静态资源存储在 F 盘，如果你的电脑没有 F 盘，则需要改成其他盘，具体位置在 file.properties 和 FileConfig.java 两个文件，将文件里面的 F:/upload 改成你本地的即可。
+  </li>
+  <li>
+   启动运行，访问
+   <a href="http://localhost:8080" rel="external nofollow noopener" target="_blank">
+    http://localhost:8080
+   </a>
+   , 管理员账号密码 system/123456，普通用户账号密码：mayun/123456
+  </li>
+ </ol>
+ <p>
+  
+  <a href="">
+   
+  </a>
+ </p>
+ <h3>
+  四、项目截图
+ </h3>
+ <p>
+  <img alt="image-20230808143802186" src="http://image.javatip.cn/bysj/20230808143802.png"/>
+ </p>
+ <p>
+  <img alt="image-20230808143739077" src="http://image.javatip.cn/bysj/20230808143739.png"/>
+ </p>
+ <p>
+  <img alt="image-20230808143129847" src="http://image.javatip.cn/bysj/20230808143130.png"/>
+ </p>
+ <p>
+  <img alt="image-20230808143447775" src="http://image.javatip.cn/bysj/20230808143447.png"/>
+ </p>
+ <p>
+  <img alt="image-20230808143719380" src="http://image.javatip.cn/bysj/20230808143719.png"/>
+ </p>
+</div>
+
+</body>
+</html>
